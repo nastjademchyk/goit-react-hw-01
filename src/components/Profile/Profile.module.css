@@ -5,6 +5,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .wrapper {
   margin: 0 auto;
   display: flex;
@@ -16,6 +17,7 @@ html {
   width: 300px;
   text-align: center;
 }
+
 .card {
   display: flex;
   height: 220px;
@@ -25,6 +27,7 @@ html {
   overflow: hidden;
   align-items: center;
 }
+
 .image {
   padding-top: 20px;
   width: 100px;
@@ -34,17 +37,21 @@ html {
   margin: 0 auto;
   background-color: #333;
 }
+
 .name {
   font-size: 27px;
 }
+
 .tag {
   color: rgb(116, 108, 108);
   font-size: 18px;
 }
+
 .location {
   color: rgb(116, 108, 108);
   font-size: 18px;
 }
+
 .list {
   list-style: none;
   display: flex;
@@ -54,6 +61,7 @@ html {
   margin: 0;
   border-top: 2px solid rgb(150, 144, 144);
 }
+
 .item {
   display: flex;
   flex-direction: column;
@@ -64,9 +72,11 @@ html {
   padding: 10px 0;
   border-right: 2px solid rgb(150, 144, 144);
 }
+
 .item:last-child {
   border-right: none;
 }
+
 .item_name {
   font-weight: normal;
   color: #423f3f;
