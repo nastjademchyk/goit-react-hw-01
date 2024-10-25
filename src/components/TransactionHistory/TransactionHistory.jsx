@@ -4,7 +4,7 @@ export default function TransactionHistory({ items }) {
   return (
     <table className={s.table}>
       <thead className={s.th}>
-        <tr classname={s.table_top}>
+        <tr className={s.table_top}>
           <th className={s.name}>Type</th>
           <th className={s.name}>Amount</th>
           <th className={s.name}>Currency</th>
